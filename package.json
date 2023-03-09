@@ -175,5 +175,8 @@
         "extends": [
             "@tryghost:theme"
         ]
+    },
+    "dependencies": {
+        "@tabler/core": "^1.0.0-beta17"
     }
 }

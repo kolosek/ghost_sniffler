@@ -27,6 +27,11 @@
     tslib "^2.4.0"
     undici "^5.5.1"
 
+"@popperjs/core@^2.11.6":
+  version "2.11.6"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
+  integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
+
 "@sentry/core@7.38.0":
   version "7.38.0"
   resolved "https://registry.yarnpkg.com/@sentry/core/-/core-7.38.0.tgz#52f1f1f2ba5e88ab7b33c3abb0ea9730c78d953d"
@@ -402,6 +407,14 @@
   integrity sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==
   dependencies:
     defer-to-connect "^1.0.1"
+
+"@tabler/core@^1.0.0-beta17":
+  version "1.0.0-beta17"
+  resolved "https://registry.yarnpkg.com/@tabler/core/-/core-1.0.0-beta17.tgz#3c949342fa09ad86d3a44b3e545892906fb620b3"
+  integrity sha512-tQpzw8oi7vjLJTyCWLHHXKyGTd0JA4bsgN3w7lifl6HhyNOQSsxIx9EpkE/ZT842MlFwy+2tXkxi5fghegHQBw==
+  dependencies:
+    "@popperjs/core" "^2.11.6"
+    bootstrap "5.3.0-alpha1"
 
 "@tryghost/bunyan-rotating-filestream@^0.0.7":
   version "0.0.7"
@@ -1009,6 +1022,11 @@ boolbase@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+bootstrap@5.3.0-alpha1:
+  version "5.3.0-alpha1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.3.0-alpha1.tgz#380629c4367893f02f7879a01ea3ae0f94e2e70e"
+  integrity sha512-ABZpKK4ObS3kKlIqH+ZVDqoy5t/bhFG0oHTAzByUdon7YIom0lpCeTqRniDzJmbtcWkNe800VVPBiJgxSYTYew==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
