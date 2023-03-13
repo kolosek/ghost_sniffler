@@ -1,1 +1,31 @@
-@import '@tabler/core'
+@import '@tabler/core';
+
+.font-lg {
+	font-size: 24px;
+}
+
+.font-md {
+	font-size: 16px;
+}
+
+.text-gradient-cyan {
+	background: -webkit-linear-gradient(#9DFDB0, #12CEF5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.transparent-bg {
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.git-img {
+	width: 718px;
+	height: 443px;
+}
+
+.supported-languages-card {
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 24px;
+	padding: 40px  70px 40px 70px;
+	margin-top: 120px;
+}
